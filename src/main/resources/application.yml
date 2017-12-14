@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      clientId: sampleApp
+      clientSecret: sample123
+      authorized-grant-types: authorization_code,refresh_token,password,implicit
+      scope: read,write
+      resourceId: sampleApp
+    resource.jwt:
+      key-pair:
+        alias: sampleApp
+        store-password: samplestorepass

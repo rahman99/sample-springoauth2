@@ -1,0 +1,1 @@
+keytool -genkeypair -alias sampleApp -keyalg RSA -keypass sample123 -keystore jwtsample.jks -storepass samplestorepass
